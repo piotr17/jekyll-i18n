@@ -1,0 +1,5 @@
+User-agent : *
+Disallow : /
+Allow : /it
+/eng
+Sitemap : /sitemap.xml
