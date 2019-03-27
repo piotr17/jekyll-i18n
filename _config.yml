@@ -19,8 +19,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
-
+github_username: jekyll
+#Custom LR Settings
+gtm: "GTM-KNJVZBX"
+phonenumber: "+390000000000"
+mapsApiKey:
+iubenda: "00000000"
 # Build settings
 markdown: kramdown
 theme: minima
@@ -37,12 +41,13 @@ collections:
   category:
     output: true
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: category
     values:
       layout: "category"
+# AMP
+ampdir: /amp
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
